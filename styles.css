@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.4cm;
+}
+
+.top-icons{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    overflow: auto;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 10px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.left-icons{
+    display: flex;
+    
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.right-icons img{
+    padding: 0px 7px;
+    cursor: pointer;
+}
+
+.search-bar form{
+    /* border: 1px solid gray; */
+    border: 1px solid #ddd;
+    height: 42px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.search-bar input{
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    border: none;
+}
+
+.search-bar button{
+    width: 70px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+.center-body{
+    display: flex;
+    height: 100%;
+    width: 230px;
+}
+
+.side-bar{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.side-bar span :hover{
+    background: rgb(235, 233, 233);
+    cursor: pointer;
+}
+
+.side-bar span{
+    margin-left: 15px;
+    display: flex;
+    padding: 5px;
+    flex-direction: column;
+}
+
+.center-body side-bar hr{
+    height: 50%;
+    width: 60px;
+    margin-right:0;
+}
+
+.side-bar span div{
+    display: flex;
+    align-items: center;
+    margin: 7px;
+}
+
+hr{
+    width: 200px;
+    height: 1px;
+    border: none;
+    background-color: rgb(218, 215, 215);
+}
+
+.heading-subscriptions{
+    margin-top: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
